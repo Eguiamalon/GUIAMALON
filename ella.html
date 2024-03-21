@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<body>
+    <div class="container">
+    <style>
+        body {
+            background-image:url( https://i.pinimg.com/originals/b1/87/17/b18717768d1f4c87d5ef621915ab3f88.jpg);
+        }
+
+        form {
+            width: 400px;
+        }
+
+        input {
+            margin: 0px;
+        }
+
+        .container {
+            width: 500px;
+            margin: 0 auto;
+            border: 1px solid black;
+            padding: 30px;
+        }
+
+        .label {
+            font-size: 20px;
+        
+        }
+
+        .submit {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            color: white;
+        }
+        .reset {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            color: white;
+        }
+           
+    </style>
+    <h1 style=text-align:center>Registration Form </h1>
+       
+    <form>
+        <table>
+            <tr>
+                <td>
+                   Full Name:
+                </td>
+                <td>
+                    <input type="text" placeholder="Full Name" name="">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Phone Number:
+                </td>
+                <td>
+                    <input type="phone" placeholder="95190******">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Email Add:
+                </td>
+                <td>
+                    <input type="emailadd" placeholder="example1@gmail.com">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Password:
+                </td>
+                <td>
+                    <input type="password" placeholder="Password">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender:
+                </td>
+                <td>
+                    <input type="radio" name="gender">Male
+                    <input type="radio" name="gender">Female
+                    <input type="radio" name="gender">Others
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Date of Birth:
+                </td>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    Education Level:
+                </td>
+                <td>
+                    <select>
+                        <option>Select Option</option>
+                        <option>Junior Highschool</option>
+                        <option>Senior Highschool</option>
+                        <option>College</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Permanent Address:
+                </td>
+                <td>
+                    <textarea rows="2" col="13" placeholder=" Permanent Address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="label"> Upload Requirements Here:</label>
+                    <input type="file" name="file">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+

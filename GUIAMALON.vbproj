@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>GUIAMALON</RootNamespace>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ella.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="ella.html" />
+  </ItemGroup>
+
+</Project>
